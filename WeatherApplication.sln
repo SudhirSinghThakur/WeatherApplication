@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "DataLayer\Data.cspr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{79BD04B1-8356-41A2-99BE-1C19F06654F5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{3FF2B8E4-08D1-49D5-B4CA-61A73114D9F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,12 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EFFD28EF-5CCE-4C41-AF95-5A739B9BE949} = {3FF2B8E4-08D1-49D5-B4CA-61A73114D9F3}
+		{D82665A4-DBC7-4C5E-87E2-CE5E9FDC690B} = {3FF2B8E4-08D1-49D5-B4CA-61A73114D9F3}
+		{7A3B7589-2D0C-4924-B23D-00DDACF53CEF} = {3FF2B8E4-08D1-49D5-B4CA-61A73114D9F3}
+		{79BD04B1-8356-41A2-99BE-1C19F06654F5} = {3FF2B8E4-08D1-49D5-B4CA-61A73114D9F3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6572628B-B8CC-42E5-88CF-2D4D113F46E7}
